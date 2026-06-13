@@ -1,7 +1,19 @@
-node_modules/
-.env
-data/
-logs/
-*.log
-package-lock.json
+# Binary
+mimo2api
+*.exe
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Docker
+.env
+
+# Docs (internal reference only)
+analysis/
